@@ -22,33 +22,14 @@ export default defineType({
             },
         }),
         defineField({
-            name: 'greeting',
-            title: 'Greeting',
-            type: 'string',
-        }),
-        defineField({
             name: 'intro',
             title: 'Intro',
             type: 'text',
         }),
+
         defineField({
-            title: 'Phone Number',
-            name: 'phone',
-            type: 'string',
-        }),
-        defineField({
-            title: 'Email',
-            name: 'email',
-            type: 'string',
-        }),
-        defineField({
-            title: 'Facebook URL',
-            name: 'facebook_url',
-            type: 'string',
-        }),
-        defineField({
-            title: 'Instagram URL',
-            name: 'instagram_user',
+            title: 'website URL',
+            name: 'website_url',
             type: 'string',
         }),
     ],
